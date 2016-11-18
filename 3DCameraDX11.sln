@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DCameraDX11", "3DCameraDX11\3DCameraDX11.vcxproj", "{FCBBB3A2-3E9D-4995-B800-B9C31BEF4C0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AFC34A2-8B2D-4A97-BEA3-046A15A84009} = {9AFC34A2-8B2D-4A97-BEA3-046A15A84009}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinectManagementLib", "KinectManagementLib\KinectManagementLib.vcxproj", "{9AFC34A2-8B2D-4A97-BEA3-046A15A84009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBBB3A2-3E9D-4995-B800-B9C31BEF4C0B}.Debug|x64.ActiveCfg = Debug|x64
+		{FCBBB3A2-3E9D-4995-B800-B9C31BEF4C0B}.Debug|x64.Build.0 = Debug|x64
+		{FCBBB3A2-3E9D-4995-B800-B9C31BEF4C0B}.Release|x64.ActiveCfg = Release|x64
+		{FCBBB3A2-3E9D-4995-B800-B9C31BEF4C0B}.Release|x64.Build.0 = Release|x64
+		{9AFC34A2-8B2D-4A97-BEA3-046A15A84009}.Debug|x64.ActiveCfg = Debug|x64
+		{9AFC34A2-8B2D-4A97-BEA3-046A15A84009}.Debug|x64.Build.0 = Debug|x64
+		{9AFC34A2-8B2D-4A97-BEA3-046A15A84009}.Release|x64.ActiveCfg = Release|x64
+		{9AFC34A2-8B2D-4A97-BEA3-046A15A84009}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
